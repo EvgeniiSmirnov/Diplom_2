@@ -1,8 +1,9 @@
-package stellarBurger.user;
+package stellarburgers.steps;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
 import org.apache.commons.lang3.RandomStringUtils;
+import stellarburgers.model.UserInfo;
 
 public class UserSteps {
 

@@ -1,8 +1,9 @@
-package stellarBurger;
+package stellarburgers.client;
 
 import io.qameta.allure.Step;
 import io.restassured.response.Response;
-import stellarBurger.igredients.Ingredients;
+import stellarburgers.client.BaseSpecification;
+import stellarburgers.model.Ingredients;
 
 import static io.restassured.RestAssured.given;
 

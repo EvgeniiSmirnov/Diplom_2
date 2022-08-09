@@ -1,4 +1,4 @@
-package stellarBurger;
+package stellarburgers.client;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;

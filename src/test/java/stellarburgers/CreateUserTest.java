@@ -1,12 +1,12 @@
-package stellarBurger;
+package stellarburgers;
 
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.junit.After;
 import org.junit.Test;
-import stellarBurger.user.UserApi;
-import stellarBurger.user.UserInfo;
-import stellarBurger.user.UserSteps;
+import stellarburgers.client.UserApi;
+import stellarburgers.model.UserInfo;
+import stellarburgers.steps.UserSteps;
 
 import static org.apache.http.HttpStatus.SC_FORBIDDEN;
 import static org.apache.http.HttpStatus.SC_OK;

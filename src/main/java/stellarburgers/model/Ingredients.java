@@ -1,4 +1,4 @@
-package stellarBurger.igredients;
+package stellarburgers.model;
 
 import java.util.List;
 

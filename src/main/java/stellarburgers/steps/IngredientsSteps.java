@@ -1,7 +1,8 @@
-package stellarBurger.igredients;
+package stellarburgers.steps;
 
 import io.qameta.allure.Step;
 import org.apache.commons.lang3.RandomUtils;
+import stellarburgers.client.IngredientsApi;
 
 import java.util.ArrayList;
 import java.util.Arrays;

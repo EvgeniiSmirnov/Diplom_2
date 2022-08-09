@@ -1,4 +1,4 @@
-package stellarBurger.user;
+package stellarburgers.model;
 
 public class UserInfo {
 

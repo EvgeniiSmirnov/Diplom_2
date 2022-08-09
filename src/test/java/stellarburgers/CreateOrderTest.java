@@ -1,15 +1,16 @@
-package stellarBurger;
+package stellarburgers;
 
 import io.qameta.allure.Description;
 import io.restassured.response.Response;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import stellarBurger.igredients.Ingredients;
-import stellarBurger.igredients.IngredientsSteps;
-import stellarBurger.user.UserApi;
-import stellarBurger.user.UserInfo;
-import stellarBurger.user.UserSteps;
+import stellarburgers.client.OrdersApi;
+import stellarburgers.model.Ingredients;
+import stellarburgers.steps.IngredientsSteps;
+import stellarburgers.client.UserApi;
+import stellarburgers.model.UserInfo;
+import stellarburgers.steps.UserSteps;
 
 import java.util.ArrayList;
 import java.util.List;
